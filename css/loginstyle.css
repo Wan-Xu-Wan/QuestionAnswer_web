@@ -1,0 +1,186 @@
+html,
+body {
+  height: 100%;
+  min-height: 100%;
+}
+
+form {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #85b2cf;
+  font-size: small;
+  text-decoration: underline;
+}
+
+.wrapper {
+  background-image: url("../images/log.jpg");
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+  min-width: 950px;
+}
+
+.loginpart {
+  font-family: sans-serif;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  top: 6%;
+  width: 20%;
+  background-color: #ffffff;
+  border: 1px solid #ededed;
+  border-radius: 7px;
+  padding: 3px;
+  opacity: 0.8;
+}
+
+.loginheader {
+  font-family: sans-serif;
+  width: 100%;
+  height: 60px;
+  background-color: #759cb6;
+  color: #fff;
+  text-align: center;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  opacity: 0.85;
+}
+
+.loginheader h1 {
+  font-family: sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #dfe7ec;
+  text-shadow: #85b2cf 0.5px 0.5px 0px;
+  font-size: 180%;
+}
+
+input[type="submit"] {
+  background-color: #759cb6;
+  border: 1px solid #759cb6;
+  border-radius: 3px;
+  margin: 5px 0 8px 0;
+  padding: 5px 10px 5px 10px;
+  color: #3f79a0;
+  text-shadow: #4b6475 0.5px 0.5px 0px;
+  font-family: sans-serif;
+  font-size: 90%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  border: 1px solid #e5e5e5;
+  margin-top: 5px;
+  width: 65%;
+  height: 30px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+}
+
+textarea {
+  border: 1px solid #e5e5e5;
+  margin-top: 5px;
+  width: 65%;
+  height: 110px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover {
+  border-color: #3f79a0;
+}
+
+textarea:hover {
+  border-color: #3f79a0;
+}
+
+#registernow {
+  display: none;
+}
+
+.h_topbar {
+  width: 100%;
+  min-width: 1050px;
+  height: 40px;
+  background-color: #e9eff3;
+  border-bottom: 0.25em solid #9abed6;
+  margin: 0 0 10px 0;
+  display: inline-flex;
+  position: fixed;
+  z-index: 10;
+}
+
+.search {
+  margin: 8px 0 0 15%;
+}
+.search #search_text_input {
+  border: thin solid #e5e5e5;
+  float: left;
+  height: 25px;
+  outline: 0;
+  width: 500px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.button_holder {
+  background-color: #f1f1f1;
+  border: thin solid #e5e5e5;
+  cursor: pointer;
+  float: left;
+  height: 23px;
+  text-align: center;
+  width: 50px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.button_holder img {
+  margin-top: 1px;
+  width: 20px;
+}
+
+#search_button {
+  border: none;
+}
+
+.allQuestion {
+  font-size: large;
+  color: #638b9c;
+}
+
+a:hover {
+  color: #4d687a;
+  text-decoration: underline;
+}
+
+.homepage a {
+  font-family: sans-serif;
+  margin-left: 10px;
+  font-size: 25;
+  position: relative;
+  top: 9px;
+  text-shadow: #99c6e4 0.5px 0.5px 0px;
+  color: #8fa7b8;
+}
+
+nav a {
+  position: relative;
+  color: #84b0ce;
+  text-decoration: none;
+  font-size: 17px;
+}
